@@ -1,0 +1,28 @@
+GET http://localhost:5000/users
+
+###
+
+GET http://localhost:5000/users/637141ec5aa2cc3e67ba7809
+
+###
+
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Test",
+    "phone": "123"
+}
+
+###
+
+DELETE http://localhost:5000/users/637142edff85961829d8047b
+
+###
+
+PATCH http://localhost:5000/users/6371437ab22bf50b65f34b8
+Content-Type: application/json
+
+{
+    "name": "Test1"
+}
